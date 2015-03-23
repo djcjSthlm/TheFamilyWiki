@@ -19,8 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.setApplicationId("8yZLWTEqaaQYroKgABaBsY3d9ofYrvWax0ds2NJK", clientKey: "xV51RBRD2zLeyRqaKfzAXXiyppUU6Jqx1qj7jgI9")
         
         var object = PFObject(className: "TestClass")
-        object.addObject("Banana", forKey: "favoriteFood")
-        object.addObject("Chocolate", forKey: "favoriteIceCream")
+        object.addObject("Bananass", forKey: "favoriteFoodss")
+        object.addObject("Chocolatess", forKey: "favoriteIceCreamss")
         object.saveInBackground()
         
         // Override point for customization after application launch.
